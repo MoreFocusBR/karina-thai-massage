@@ -12,8 +12,12 @@
   <meta name="geo.placename" content="Campeche, Florianópolis">
   <!-- SUBSTITUIR "https://www.seudominio.com.br" pelo domínio definitivo do site antes da publicação (canonical, Open Graph e dados estruturados). -->
   <link rel="canonical" href="https://www.seudominio.com.br/">
+  <link rel="alternate" hreflang="pt-BR" href="https://www.seudominio.com.br/">
+  <link rel="alternate" hreflang="en" href="https://www.seudominio.com.br/en/">
+  <link rel="alternate" hreflang="x-default" href="https://www.seudominio.com.br/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
   <meta property="og:site_name" content="Karina Albuquerque · Thai Massage">
   <meta property="og:title" content="Thai Massage em Florianópolis (Campeche) | Karina Albuquerque">
   <meta property="og:description" content="Massagem tailandesa tradicional e Thai Sports Massage com atendimento personalizado no Campeche, Florianópolis.">
@@ -26,7 +30,7 @@
   <meta name="twitter:title" content="Thai Massage em Florianópolis (Campeche) | Karina Albuquerque">
   <meta name="twitter:description" content="Massagem tailandesa tradicional e Thai Sports Massage com atendimento personalizado no Campeche, Florianópolis.">
   <meta name="twitter:image" content="https://www.seudominio.com.br/images/karina-albuquerque-thai-massage-campeche-florianopolis.jpg">
-  <link rel="preload" as="image" href="images/karina-albuquerque-thai-massage-campeche-florianopolis.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="images/karina-thai-massage-hero-poster.jpg" fetchpriority="high">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -83,7 +87,7 @@
         "mainEntity": [
           { "@type": "Question", "name": "O que é Thai Massage?", "acceptedAnswer": { "@type": "Answer", "text": "A Thai Massage, ou massagem tailandesa, é uma prática da Medicina Tradicional Tailandesa que combina técnicas de pressão, alongamentos assistidos e mobilizações articulares para liberar tensões, promover mobilidade e favorecer o equilíbrio e a vitalidade do corpo." } },
           { "@type": "Question", "name": "Qual a diferença entre Thai Massage e Thai Sports Massage?", "acceptedAnswer": { "@type": "Answer", "text": "A Thai Sports Massage aplica a técnica tailandesa às necessidades de quem pratica esportes. Ela considera a modalidade, a rotina de treinos e as necessidades individuais, com foco em recuperação, mobilidade, flexibilidade e preparação para o movimento." } },
-          { "@type": "Question", "name": "Para quem a Thai Massage é indicada?", "acceptedAnswer": { "@type": "Answer", "text": "Para quem busca recuperação, mais mobilidade, alívio de tensões, melhor performance ou simplesmente equilíbrio e vitalidade — de atletas e pessoas fisicamente ativas a quem deseja um momento de cuidado." } },
+          { "@type": "Question", "name": "Para quem a Thai Massage é indicada?", "acceptedAnswer": { "@type": "Answer", "text": "A Thai Massage é para todos. Ela atende quem busca recuperação, mais mobilidade, alívio de tensões, melhor performance ou simplesmente equilíbrio e vitalidade, de atletas e pessoas fisicamente ativas a quem deseja um momento de cuidado, sempre com a condução adaptada a cada corpo." } },
           { "@type": "Question", "name": "Como funciona uma sessão?", "acceptedAnswer": { "@type": "Answer", "text": "Cada sessão é individualizada: começa com uma avaliação do seu momento e objetivos, segue com uma condução ajustada às respostas do corpo e termina com orientações pós-sessão e um follow-up." } },
           { "@type": "Question", "name": "Onde é o atendimento e como agendar?", "acceptedAnswer": { "@type": "Answer", "text": "O atendimento é no Campeche, em Florianópolis (SC), com hora marcada. O agendamento é feito pelo WhatsApp (48) 99695-4356, e o endereço exato é informado na confirmação." } },
           { "@type": "Question", "name": "Qual a formação da Karina Albuquerque?", "acceptedAnswer": { "@type": "Answer", "text": "Karina iniciou sua formação em Chiang Mai, na Tailândia, em 2011, formando-se terapeuta e professora pelo ITM — International Training Massage School. Desde então, segue se aprofundando com professores e mestres tailandeses." } }
@@ -94,241 +98,9 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --paper: #f5f1e9;
-      --sand: #d8c8b3;
-      --olive: #777b60;
-      --forest: #343d32;
-      --ink: #302b27;
-      --muted: #77736b;
-      --line: rgba(52, 61, 50, .18);
-      --white: #fffdf8;
-      --serif: "Cormorant Garamond", Georgia, serif;
-      --sans: "DM Sans", Arial, sans-serif;
-      --wrap: 1180px;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; scroll-padding-top: 84px; }
-    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.65; }
-    img { display: block; width: 100%; object-fit: cover; }
-    a { color: inherit; text-decoration: none; }
-    button, a { -webkit-tap-highlight-color: transparent; }
-    .wrap { width: min(var(--wrap), calc(100% - 48px)); margin-inline: auto; }
-    .eyebrow { text-transform: uppercase; letter-spacing: .16em; font-size: .72rem; font-weight: 700; color: var(--olive); }
-    h1, h2, h3, p { margin-top: 0; }
-    h1, h2, h3, .serif { font-family: var(--serif); font-weight: 400; line-height: 1.04; }
-    h2 { font-size: clamp(2.6rem, 5vw, 4.8rem); letter-spacing: -.035em; margin-bottom: 22px; }
-    h3 { font-size: 1.8rem; margin-bottom: 12px; }
-    p { color: #5d5a52; }
-    .section { padding: 112px 0; }
-    .section-head { max-width: 720px; margin-bottom: 48px; }
-    .section-head p { max-width: 650px; font-size: 1.05rem; }
-    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 12px; padding: 15px 22px; border: 1px solid transparent; background: var(--forest); color: var(--white); font-size: .76rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; transition: transform .2s, background .2s; min-height: 52px; }
-    .btn:hover { background: #4a5746; transform: translateY(-2px); }
-    .btn-light { background: var(--paper); color: var(--forest); }
-    .btn-light:hover { background: white; }
-    .btn-outline { border-color: var(--forest); color: var(--forest); background: transparent; }
-    .btn-outline:hover { color: white; }
-    .site-header { position: fixed; inset: 0 0 auto; z-index: 20; color: white; transition: background .25s, color .25s, box-shadow .25s; }
-    .site-header.scrolled { background: rgba(245,241,233,.96); color: var(--forest); box-shadow: 0 1px 0 var(--line); backdrop-filter: blur(12px); }
-    .nav { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-    .brand { line-height: 1.05; display: inline-flex; flex-direction: column; gap: 5px; }
-    .brand strong { font-family: var(--serif); font-size: 1.45rem; letter-spacing: .04em; font-weight: 500; }
-    .brand span { font-size: .61rem; letter-spacing: .23em; text-transform: uppercase; }
-    .nav-links { display: flex; align-items: center; gap: 27px; font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; }
-    .nav-links a:not(.btn):hover { opacity: .7; }
-    .nav-links .btn { min-height: 43px; padding: 11px 16px; font-size: .68rem; }
-    .menu-toggle { display: none; color: inherit; border: 0; background: none; font: inherit; font-size: 1.6rem; cursor: pointer; }
-    .hero { min-height: min(850px, 100svh); min-height: max(690px, 100svh); position: relative; display: flex; align-items: center; color: white; overflow: hidden; background: var(--forest); }
-    .hero-media { position: absolute; top: 0; right: 0; bottom: 0; width: 52%; height: 100%; object-fit: cover; object-position: center 60%; }
-    .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, var(--forest) 0%, var(--forest) 48%, rgba(52,61,50,.55) 56%, rgba(52,61,50,0) 72%), linear-gradient(180deg, rgba(26,31,25,.45), transparent 22%), linear-gradient(0deg, rgba(26,31,25,.30), transparent 30%); }
-    .hero-content { position: relative; z-index: 1; padding-top: 70px; max-width: 820px; }
-    .hero .eyebrow { color: #e0d5c4; margin-bottom: 26px; }
-    .hero h1 .eyebrow { display: block; font-family: var(--sans); line-height: 1.65; }
-    .hero h1 { font-size: clamp(3rem, 5vw, 5rem); letter-spacing: .015em; line-height: .98; margin-bottom: 26px; max-width: 820px; text-transform: uppercase; }
-    .editorial-caps { text-transform: uppercase; letter-spacing: .025em; }
-    .google-source { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-top: 22px; }
-    .google-mark { font-family: var(--sans); font-size: .9rem; font-weight: 700; letter-spacing: -.04em; color: #4285f4; }
-    .google-stars { color: #e5a600; font-size: 1rem; letter-spacing: .12em; white-space: nowrap; }
-    .google-source span, .review-origin { color: var(--muted); font-size: .78rem; }
-    .google-link { display: inline-flex; align-items: center; gap: 8px; border-bottom: 1px solid currentColor; color: var(--forest); font-size: .76rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding-bottom: 3px; }
-    .review-origin { display: block; margin-top: 10px; }
-    .hero p { color: rgba(255,255,255,.88); max-width: 460px; font-size: clamp(1rem, 1.6vw, 1.18rem); margin-bottom: 30px; }
-    .hero-bottom { position: absolute; z-index: 1; bottom: 32px; left: 0; right: 0; display: flex; justify-content: space-between; align-items: center; color: rgba(255,255,255,.75); text-transform: uppercase; letter-spacing: .14em; font-size: .67rem; }
-    .scroll-note { display: flex; align-items: center; gap: 12px; }
-    .scroll-note::before { content: ""; width: 34px; height: 1px; background: currentColor; }
-    .intro-grid, .about-grid, .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(36px, 7vw, 100px); align-items: center; }
-    .intro-photo { position: relative; }
-    .intro-photo img { height: 620px; }
-    .photo-caption { position: absolute; bottom: 20px; left: 20px; padding: 11px 15px; background: var(--paper); font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; }
-    .copy p { font-size: 1.02rem; }
-    .copy p:last-child { margin-bottom: 0; }
-    .gallery { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 14px; margin-top: 48px; align-items: stretch; }
-    .gallery img { height: 260px; }
-    .gallery img:first-child { height: 310px; margin-top: -25px; }
-    .sports { background: var(--forest); color: var(--paper); }
-    .sports p { color: rgba(245,241,233,.76); }
-    .sports .eyebrow { color: #c8c8ac; }
-    .sports-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items: center; }
-    .sports-image { height: 600px; }
-    .word-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 32px; }
-    .word-list span { border: 1px solid rgba(245,241,233,.35); padding: 12px 14px; font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; }
-    .about { background: #ebe5da; }
-    .about-photo { height: 660px; }
-    .milestones { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 35px; }
-    .milestone { border-top: 1px solid var(--line); padding-top: 16px; }
-    .milestone strong { display: block; color: var(--olive); font-family: var(--serif); font-size: 2.3rem; font-weight: 400; line-height: 1; margin-bottom: 8px; }
-    .milestone span { color: var(--muted); font-size: .77rem; line-height: 1.4; display: block; }
-    .process-intro { display: grid; grid-template-columns: .9fr 1.1fr; gap: 80px; margin-bottom: 54px; }
-    .process-list { border-top: 1px solid var(--line); }
-    .process-item { display: grid; grid-template-columns: 80px 1fr 1.15fr; gap: 24px; padding: 26px 0; border-bottom: 1px solid var(--line); align-items: start; }
-    .process-number { font-family: var(--serif); font-size: 2rem; color: var(--olive); line-height: 1; }
-    .process-item h3 { font-family: var(--sans); font-size: .9rem; line-height: 1.4; font-weight: 700; margin: 0; }
-    .process-item p { margin: 0; font-size: .92rem; }
-    .needs { background: #e7e3d8; }
-    .needs-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
-    .need-card { position: relative; overflow: hidden; min-height: 330px; color: white; background: var(--forest); }
-    .need-card img { position: absolute; inset: 0; width: 100%; height: 100%; transition: transform .5s; }
-    .need-card:hover img { transform: scale(1.05); }
-    .need-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(22,27,22,.76), rgba(22,27,22,.02) 80%); }
-    .need-card h3 { position: absolute; z-index: 1; bottom: 18px; left: 20px; right: 16px; margin: 0; font-family: var(--sans); font-size: .85rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; line-height: 1.4; }
-    .need-wide { grid-column: span 2; min-height: 210px; background: var(--forest); display: flex; align-items: center; justify-content: center; padding: 30px; text-align: center; }
-    .need-wide h3 { position: relative; inset: auto; font-family: var(--serif); font-size: clamp(1.8rem, 3vw, 3rem); font-weight: 400; letter-spacing: .01em; }
-    .testimonials { background: var(--paper); }
-    .review-feature { display: grid; grid-template-columns: .65fr 1.35fr; background: #e9e3d8; margin-bottom: 20px; }
-    .review-label { padding: 35px; background: var(--olive); color: white; display: flex; flex-direction: column; justify-content: space-between; }
-    .review-label .quote-mark { font-family: var(--serif); font-size: 6rem; line-height: .7; opacity: .7; }
-    .review-label span { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; }
-    .review-text { padding: clamp(28px, 5vw, 60px); }
-    .review-text blockquote { font-family: var(--serif); font-size: clamp(1.6rem, 3vw, 2.6rem); line-height: 1.15; margin: 0 0 24px; }
-    .review-text p { margin-bottom: 22px; }
-    .review-text strong { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; }
-    .review-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
-    .review-card { border: 1px solid var(--line); padding: 28px; }
-    .review-card p { font-size: .94rem; }
-    .review-card strong { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; }
-    .cta { min-height: 590px; position: relative; display: flex; align-items: center; color: white; overflow: hidden; }
-    .cta > img { position: absolute; inset: 0; width: 100%; height: 100%; }
-    .cta::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(25,31,24,.82), rgba(25,31,24,.3)); }
-    .cta-content { position: relative; z-index: 1; max-width: 700px; padding-block: 100px; }
-    .cta h2 { font-size: clamp(3rem, 6vw, 5.8rem); }
-    .cta p { color: rgba(255,255,255,.84); max-width: 490px; font-size: 1.05rem; }
-    .faq { background: #ebe5da; }
-    .faq-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 80px; align-items: start; }
-    .faq-list { border-top: 1px solid var(--line); }
-    .faq-item { border-bottom: 1px solid var(--line); }
-    .faq-item summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: baseline; gap: 20px; padding: 22px 0; font-family: var(--serif); font-size: 1.45rem; line-height: 1.2; color: var(--ink); }
-    .faq-item summary::-webkit-details-marker { display: none; }
-    .faq-item summary::after { content: "+"; font-family: var(--sans); font-size: 1.3rem; color: var(--olive); transition: transform .2s; }
-    .faq-item[open] summary::after { transform: rotate(45deg); }
-    .faq-item p { margin: 0; padding-bottom: 24px; max-width: 620px; font-size: .96rem; }
-    .contact { background: #e9e3d8; }
-    .contact-details { display: grid; gap: 22px; margin-top: 34px; font-style: normal; }
-    .contact-row { display: grid; grid-template-columns: 32px 1fr; gap: 14px; align-items: start; }
-    .contact-row .icon { color: var(--olive); font-size: 1.1rem; }
-    .contact-row strong { display: block; font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 3px; }
-    .contact-row span, .contact-row a { font-size: .92rem; color: #625e56; overflow-wrap: anywhere; }
-    .map-card { background: #d8d5c9; min-height: 440px; position: relative; display: grid; place-items: center; overflow: hidden; }
-    .map-card iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; filter: grayscale(.55) sepia(.12); }
-    .map-overlay { position: absolute; left: 18px; bottom: 18px; z-index: 1; background: var(--paper); padding: 18px; max-width: 260px; box-shadow: 0 6px 30px rgba(0,0,0,.1); }
-    .map-overlay strong { display: block; font-family: var(--serif); font-size: 1.7rem; font-weight: 400; }
-    .map-overlay span { font-size: .76rem; color: var(--muted); display: block; margin-bottom: 12px; }
-    .final-quote { text-align: center; background: var(--paper); padding: 105px 24px 90px; }
-    .final-quote .quote-text { max-width: 900px; margin: 25px auto; font-family: var(--serif); font-size: clamp(2.5rem, 5vw, 5rem); line-height: 1.04; letter-spacing: -.035em; color: var(--ink); }
-    .final-quote .eyebrow { letter-spacing: .2em; }
-    footer { background: var(--forest); color: var(--paper); padding: 30px 0; }
-    .footer-inner { display: flex; justify-content: space-between; gap: 24px; align-items: center; }
-    footer p { color: rgba(245,241,233,.65); margin: 0; font-size: .75rem; }
-    footer .brand strong { font-size: 1.2rem; }
-    .whatsapp-float { position: fixed; right: 22px; bottom: 22px; z-index: 18; width: 58px; height: 58px; display: grid; place-items: center; border-radius: 50%; background: #557a56; color: white; box-shadow: 0 8px 24px rgba(0,0,0,.2); font-size: 1.5rem; transition: transform .2s; }
-    .whatsapp-float:hover { transform: translateY(-3px); }
-    .mobile-booking { display: none; }
-    .reveal { opacity: 0; transform: translateY(20px); transition: opacity .65s ease, transform .65s ease; }
-    .reveal.visible { opacity: 1; transform: none; }
-    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; transition: none; } * { transition-duration: .01ms !important; } }
-    @media (max-width: 900px) {
-      .nav-links { gap: 16px; }
-      .nav-links a:not(.btn) { display: none; }
-      .hero { align-items: flex-end; }
-      .hero-media { width: 100%; object-position: 40% 30%; }
-      .hero::after { background: linear-gradient(0deg, rgba(25,31,24,.88) 0%, rgba(25,31,24,.55) 45%, rgba(25,31,24,.10) 75%), linear-gradient(180deg, rgba(26,31,25,.45), transparent 22%); }
-      .hero-content { padding-bottom: 100px; }
-      .section { padding: 86px 0; }
-      .intro-grid, .about-grid, .sports-grid { gap: 38px; }
-      .intro-photo img { height: 520px; }
-      .sports-image { height: 520px; }
-      .about-photo { height: 560px; }
-      .needs-grid { grid-template-columns: repeat(2, 1fr); }
-      .need-card { min-height: 280px; }
-      .process-intro { gap: 35px; }
-      .faq-grid { gap: 35px; }
-    }
-    @media (max-width: 640px) {
-      .wrap { width: min(100% - 36px, var(--wrap)); }
-      .nav { min-height: 72px; }
-      .brand strong { font-size: 1.22rem; }
-      .brand span { font-size: .55rem; }
-      .menu-toggle { display: block; }
-      .nav-links { display: none; position: absolute; top: 72px; left: 0; right: 0; padding: 18px; background: var(--paper); color: var(--forest); flex-direction: column; align-items: stretch; gap: 0; box-shadow: 0 12px 20px rgba(0,0,0,.08); }
-      .nav-links.open { display: flex; }
-      .nav-links a:not(.btn) { display: block; padding: 13px 5px; border-bottom: 1px solid var(--line); }
-      .nav-links .btn { margin-top: 12px; }
-      .site-header.scrolled .nav-links { background: var(--paper); }
-      .hero { min-height: 790px; min-height: 100svh; max-height: 900px; }
-      .hero-media { object-position: 40% center; }
-      .hero-content { padding-top: 90px; padding-bottom: 140px; }
-      .hero h1 { font-size: clamp(2.8rem, 13.4vw, 4.7rem); letter-spacing: .005em; }
-      .hero p { font-size: .98rem; max-width: 410px; }
-      .hero-bottom { bottom: 90px; font-size: .58rem; }
-      .hero-bottom .location-note { display: none; }
-      .section { padding: 74px 0; }
-      h2 { font-size: clamp(2.7rem, 12vw, 4rem); }
-      .section-head { margin-bottom: 34px; }
-      .intro-grid, .about-grid, .contact-grid, .sports-grid, .process-intro { grid-template-columns: 1fr; gap: 32px; }
-      .intro-photo { order: -1; }
-      .intro-photo img { height: 430px; }
-      .gallery { grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 30px; }
-      .gallery img, .gallery img:first-child { height: 200px; margin-top: 0; }
-      .gallery img:first-child { grid-column: span 2; height: 240px; }
-      .sports-image { height: 390px; order: -1; }
-      .word-list { gap: 8px; }
-      .word-list span { font-size: .65rem; padding: 10px; }
-      .about-photo { height: 460px; }
-      .milestones { gap: 12px; }
-      .milestone strong { font-size: 1.9rem; }
-      .milestone span { font-size: .68rem; }
-      .process-intro { margin-bottom: 32px; }
-      .process-item { grid-template-columns: 42px 1fr; gap: 10px 15px; padding: 22px 0; }
-      .process-item p { grid-column: 2; }
-      .process-number { font-size: 1.7rem; }
-      .needs-grid { gap: 10px; }
-      .need-card { min-height: 230px; }
-      .need-card h3 { left: 13px; bottom: 13px; font-size: .73rem; }
-      .need-wide { min-height: 150px; padding: 18px; }
-      .review-feature { grid-template-columns: 1fr; }
-      .review-label { padding: 22px 25px; min-height: 100px; flex-direction: row; align-items: center; }
-      .review-label .quote-mark { font-size: 4rem; }
-      .review-text { padding: 28px 24px; }
-      .review-grid { grid-template-columns: 1fr; }
-      .review-card { padding: 23px; }
-      .cta { min-height: 600px; }
-      .cta > img { object-position: center 40%; }
-      .cta::after { background: linear-gradient(0deg, rgba(25,31,24,.83), rgba(25,31,24,.23)); }
-      .cta-content { padding-block: 90px; }
-      .faq-grid { grid-template-columns: 1fr; gap: 28px; }
-      .faq-item summary { font-size: 1.25rem; padding: 18px 0; }
-      .contact-grid { gap: 36px; }
-      .map-card { min-height: 340px; }
-      .final-quote { padding: 80px 22px 72px; }
-      .footer-inner { align-items: flex-start; flex-direction: column; }
-      .whatsapp-float { display: none; }
-      .mobile-booking { display: block; position: fixed; z-index: 19; bottom: 0; left: 0; right: 0; padding: 10px 18px calc(10px + env(safe-area-inset-bottom)); background: rgba(245,241,233,.97); border-top: 1px solid var(--line); backdrop-filter: blur(10px); }
-      .mobile-booking .btn { width: 100%; min-height: 48px; }
-      footer { padding-bottom: 92px; }
-    }
-  </style>
+  <!-- Fonte dos títulos: Playfair Display (mais encorpada e limpa que a Cormorant Garamond). Alternativas comparadas em fontes.html. -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header" id="siteHeader">
@@ -336,31 +108,46 @@
       <a class="brand" href="#inicio" aria-label="Karina Albuquerque Thai Massage, início">
         <strong>KARINA ALBUQUERQUE</strong><span>Thai Massage</span>
       </a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
       <nav class="nav-links" id="navLinks" aria-label="Navegação principal">
         <a href="#thai-massage">A experiência</a>
         <a href="#karina">Sobre Karina</a>
         <a href="#relatos">Relatos</a>
         <a href="#duvidas">Dúvidas</a>
         <a href="#contato">Contato</a>
-        <a class="btn" href="#agendamento">Agendar sessão ↗</a>
+        <a class="btn whatsapp-link" href="#" target="_blank" rel="noopener">Agendar pelo WhatsApp ↗</a>
       </nav>
+      <div class="nav-tools">
+        <div class="lang-switch" aria-label="Idioma"><a href="index.html" class="active" aria-current="page" lang="pt-BR">PT</a><span aria-hidden="true">/</span><a href="en/index.html" hreflang="en" lang="en" title="English version">EN</a></div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      </div>
     </div>
   </header>
 
   <main>
     <!-- 01 — Topo -->
     <section class="hero" id="inicio" aria-label="Apresentação">
-      <img class="hero-media" src="images/karina-albuquerque-thai-massage-campeche-florianopolis.jpg" width="1080" height="1920" alt="Karina Albuquerque conduzindo uma sessão de Thai Massage em seu espaço no Campeche, Florianópolis" fetchpriority="high">
+      <video class="hero-media" id="heroVideo" autoplay muted loop playsinline preload="auto" poster="images/karina-thai-massage-hero-poster.jpg" aria-label="Vídeo de Karina Albuquerque conduzindo sessões de Thai Massage em seu espaço no Campeche, Florianópolis">
+        <source src="video/karina-thai-massage-hero-720.mp4" type="video/mp4">
+      </video>
       <div class="wrap hero-content">
-        <h1><span class="eyebrow">Thai Massage em Florianópolis · Campeche</span>Recuperação.<br>Equilíbrio.<br>Vitalidade.</h1>
-        <p>Massagem tailandesa tradicional e Thai Sports Massage em uma abordagem personalizada para recuperação, equilíbrio e vitalidade do corpo.</p>
-        <a class="btn btn-light" href="#agendamento">Agendar sessão <span aria-hidden="true">↗</span></a>
+        <p class="hero-words">Recuperação.<br>Equilíbrio.<br>Vitalidade.</p>
       </div>
       <div class="wrap hero-bottom">
         <span>Uma experiência individualizada</span>
         <span class="scroll-note">Explore o cuidado</span>
         <span class="location-note">Florianópolis · SC</span>
+      </div>
+    </section>
+
+    <!-- 01b — Apresentação (subtítulo que antes ficava sobre a imagem do topo) -->
+    <section class="intro-band" aria-label="Thai Massage em Florianópolis">
+      <div class="wrap">
+        <h1 class="eyebrow">Thai Massage em Florianópolis · Campeche</h1>
+        <p class="lead">Massagem tailandesa tradicional e Thai Sports Massage em uma abordagem personalizada para recuperação, equilíbrio e vitalidade do corpo.</p>
+        <div class="btn-row">
+          <a class="btn whatsapp-link" href="#" target="_blank" rel="noopener">Agendar pelo WhatsApp <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-outline whatsapp-info" href="#" target="_blank" rel="noopener">Informações e valores <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
     </section>
 
@@ -372,11 +159,15 @@
             <img src="images/thai-massage-pressao-palmas-costas.jpg" width="1080" height="1920" alt="Thai Massage: pressão com as palmas das mãos ao longo das costas, sobre tecido tradicional tailandês" loading="lazy" decoding="async" style="object-position:center 58%">
             <div class="photo-caption">Tradição · Presença · Movimento</div>
           </div>
-          <div class="copy reveal">
+          <div class="copy intro-head reveal">
             <div class="eyebrow">01 / Massagem tailandesa tradicional</div>
             <h2>Thai Massage, uma tradição terapêutica tailandesa.</h2>
+          </div>
+          <div class="copy intro-body reveal">
             <p>A Thai Massage — ou massagem tailandesa — é uma prática da Medicina Tradicional Tailandesa que compreende o corpo de forma integrada, considerando a relação entre estruturas, movimento, energia e equilíbrio.</p>
             <p>Combina técnicas de pressão, alongamentos assistidos e mobilizações articulares para liberar tensões, promover mobilidade e favorecer o equilíbrio e a vitalidade do corpo.</p>
+            <!-- Texto provisório: a Karina vai enviar a redação dela sobre "a massagem é para todos". -->
+            <p>É uma massagem para todas as pessoas: a condução é sempre adaptada a cada corpo, a cada necessidade e a cada momento.</p>
           </div>
         </div>
         <div class="gallery reveal" aria-label="Detalhes da prática de Thai Massage">
@@ -390,14 +181,18 @@
     <!-- 03 — Thai Sports Massage -->
     <section class="section sports" id="thai-sports">
       <div class="wrap sports-grid">
-        <div class="reveal">
+        <div class="sports-head reveal">
           <div class="eyebrow">02 / Massagem para atletas e corpos ativos</div>
           <h2>Thai Sports Massage.</h2>
-          <p class="serif" style="font-size:1.65rem;line-height:1.25;color:#f5f1e9">A técnica tailandesa aplicada às necessidades de quem pratica esportes e mantém uma vida fisicamente ativa.</p>
+          <p class="serif sports-lead">A técnica tailandesa aplicada às necessidades de quem pratica esportes e mantém uma vida fisicamente ativa.</p>
+        </div>
+        <div class="sports-body reveal">
           <p>A Thai Sports Massage considera a modalidade esportiva praticada, a rotina de treinos e as necessidades individuais, direcionando o trabalho para recuperação, liberdade de movimento e potencial físico.</p>
           <div class="word-list" aria-label="Focos da Thai Sports Massage">
             <span>Recuperação</span><span>Mobilidade</span><span>Flexibilidade</span><span>Liberação de tensões</span><span>Preparação para o movimento</span>
           </div>
+          <!-- Texto provisório: a Karina vai enviar a redação dela sobre "a massagem é para todos". -->
+          <p class="note-all">Embora tenha um direcionamento voltado a pessoas fisicamente ativas e praticantes de esportes, a Thai Massage é para todos — cada sessão é adaptada a quem a recebe.</p>
         </div>
         <img class="sports-image reveal" src="images/thai-sports-massage-alongamento-florianopolis.jpg" width="1080" height="1920" alt="Karina Albuquerque aplicando alongamento de braço e tronco em sessão de Thai Sports Massage em Florianópolis" loading="lazy" decoding="async" style="object-position:center 45%">
       </div>
@@ -418,6 +213,14 @@
             <div class="milestone"><strong>2011</strong><span>início da formação na Tailândia</span></div>
             <div class="milestone"><strong>10+</strong><span>anos de experiência em Thai Massage</span></div>
           </div>
+          <!-- Completar com o currículo completo que a Karina vai enviar (curso, instituição, local e ano de cada item). -->
+          <details class="credentials">
+            <summary>Formação e certificações</summary>
+            <ul>
+              <li><span class="year">2011</span><span><strong>Terapeuta e professora de Thai Massage</strong>ITM — International Training Massage School · Chiang Mai, Tailândia</span></li>
+              <li><span class="year">Hoje</span><span><strong>Aprofundamento contínuo</strong>Estudos com professores e mestres tailandeses</span></li>
+            </ul>
+          </details>
         </div>
       </div>
     </section>
@@ -504,7 +307,7 @@
         <div class="faq-list reveal">
           <details class="faq-item"><summary>O que é Thai Massage?</summary><p>A Thai Massage, ou massagem tailandesa, é uma prática da Medicina Tradicional Tailandesa que combina técnicas de pressão, alongamentos assistidos e mobilizações articulares para liberar tensões, promover mobilidade e favorecer o equilíbrio e a vitalidade do corpo.</p></details>
           <details class="faq-item"><summary>Qual a diferença entre Thai Massage e Thai Sports Massage?</summary><p>A Thai Sports Massage aplica a técnica tailandesa às necessidades de quem pratica esportes. Ela considera a modalidade, a rotina de treinos e as necessidades individuais, com foco em recuperação, mobilidade, flexibilidade e preparação para o movimento.</p></details>
-          <details class="faq-item"><summary>Para quem a Thai Massage é indicada?</summary><p>Para quem busca recuperação, mais mobilidade, alívio de tensões, melhor performance ou simplesmente equilíbrio e vitalidade — de atletas e pessoas fisicamente ativas a quem deseja um momento de cuidado.</p></details>
+          <details class="faq-item"><summary>Para quem a Thai Massage é indicada?</summary><p>A Thai Massage é para todos. Ela atende quem busca recuperação, mais mobilidade, alívio de tensões, melhor performance ou simplesmente equilíbrio e vitalidade — de atletas e pessoas fisicamente ativas a quem deseja um momento de cuidado —, sempre com a condução adaptada a cada corpo.</p></details>
           <details class="faq-item"><summary>Como funciona uma sessão?</summary><p>Cada sessão é individualizada: começa com uma avaliação do seu momento e objetivos, segue com uma condução ajustada às respostas do corpo e termina com orientações pós-sessão e um follow-up.</p></details>
           <details class="faq-item"><summary>Onde é o atendimento e como agendar?</summary><p>O atendimento é no Campeche, em Florianópolis (SC), com hora marcada. O agendamento é feito pelo WhatsApp (48) 99695-4356, e o endereço exato é informado na confirmação.</p></details>
           <details class="faq-item"><summary>Qual a formação da Karina Albuquerque?</summary><p>Karina iniciou sua formação em Chiang Mai, na Tailândia, em 2011, formando-se terapeuta e professora pelo ITM — International Training Massage School. Desde então, segue se aprofundando com professores e mestres tailandeses.</p></details>
@@ -519,7 +322,10 @@
         <div class="eyebrow" style="color:#e1d5c2">Seu momento começa aqui</div>
         <h2>O seu momento de cuidado é agora.</h2>
         <p>Reserve um momento para vivenciar uma experiência de cuidado profundo, pensada para você.</p>
-        <a class="btn btn-light whatsapp-link" href="#" target="_blank" rel="noopener">Agendar pelo WhatsApp <span aria-hidden="true">↗</span></a>
+        <div class="btn-row">
+          <a class="btn btn-light whatsapp-link" href="#" target="_blank" rel="noopener">Agendar pelo WhatsApp <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-outline-light whatsapp-info" href="#" target="_blank" rel="noopener">Informações e valores <span aria-hidden="true">↗</span></a>
+        </div>
       </div>
     </section>
 
@@ -562,16 +368,27 @@
   </footer>
 
   <a class="whatsapp-float whatsapp-link" href="#" target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp" title="Agendar pelo WhatsApp">↗</a>
-  <div class="mobile-booking"><a class="btn whatsapp-link" href="#" target="_blank" rel="noopener">Agendar pelo WhatsApp ↗</a></div>
+  <div class="mobile-booking"><a class="btn btn-outline whatsapp-info" href="#" target="_blank" rel="noopener">Informações</a><a class="btn whatsapp-link" href="#" target="_blank" rel="noopener">Agendar pelo WhatsApp</a></div>
 
   <script>
     // Número normalizado a partir do contato fornecido. Confirmar antes de publicar.
     const whatsappNumber = "5548996954356";
-    const whatsappMessage = "Olá, Karina! Gostaria de consultar a disponibilidade para uma sessão de Thai Massage.";
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappMessage = "Olá, Karina! Gostaria de agendar uma sessão de Thai Massage.";
+    const whatsappInfoMessage = "Olá, Karina! Gostaria de mais informações sobre as sessões de Thai Massage (valores, duração e horários).";
+    const toWhatsapp = message => `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     document.querySelectorAll(".whatsapp-link").forEach(link => {
-      link.href = whatsappUrl;
+      link.href = toWhatsapp(whatsappMessage);
     });
+    document.querySelectorAll(".whatsapp-info").forEach(link => {
+      link.href = toWhatsapp(whatsappInfoMessage);
+    });
+
+    // Respeita quem pediu menos movimento no sistema: o vídeo fica parado no primeiro quadro.
+    const heroVideo = document.getElementById("heroVideo");
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      heroVideo.removeAttribute("autoplay");
+      heroVideo.pause();
+    }
 
     const header = document.getElementById("siteHeader");
     const updateHeader = () => header.classList.toggle("scrolled", window.scrollY > 30);
